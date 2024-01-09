@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
   return (
     <>
-    <nav className="bg-secondary-background text-primary-text p-4 shadow-xlg">
+    <nav className="bg-secondary-background text-primary-text p-4 shadow-xlg sticky top-0 z-10">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo or Brand Name */}
         <div className="font-bold text-xl">

@@ -1,3 +1,10 @@
+main {
+    min-width: 100vw;   /* 100% of the viewport width */
+    min-height: 100vh;  /* 100% of the viewport height */
+    margin: 0;          /* Remove default margin */
+    padding: 0;         /* Remove default padding */
+  }
+
 .link-underline {
     position: relative;
     display: inline-block;
