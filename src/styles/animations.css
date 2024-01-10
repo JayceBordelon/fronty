@@ -1,9 +1,10 @@
 main {
-    min-width: 100vw;   /* 100% of the viewport width */
+    min-width: 100dvw;   /* 100% of the viewport width */
     min-height: 100vh;  /* 100% of the viewport height */
     margin: 0;          /* Remove default margin */
     padding: 0;         /* Remove default padding */
   }
+
 
 .link-underline {
     position: relative;
@@ -29,3 +30,29 @@ main {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+  /* Spinner Styles */
+.spinner-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+}
+
+@keyframes spinner {
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ddd; /* Light grey border */
+  border-top-color: #007bff; /* Blue color for the top border */
+  border-radius: 50%;
+  animation: spinner 1s linear infinite;
+}

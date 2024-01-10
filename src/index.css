@@ -14,3 +14,55 @@
   }
   
 }
+
+/* Cool Button Styles */
+.cool-button {
+  color: #ffffff; /* text-white */
+  font-weight: bold; /* font-bold */
+  padding-top: 0.5rem; /* py-2 */
+  padding-bottom: 0.5rem; /* py-2 */
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem; /* px-4 */
+  margin: 1rem; /* m-4 */
+  border-radius: 0.375rem; /* rounded */
+  transition: all 0.3s ease-in-out; /* transition duration-300 ease-in-out */
+}
+
+/* Success Button Styles */
+.success {
+  color: #ffffff; /* text-white */
+  background-color: #2f855a; /* bg-green-800 */
+}
+.success:hover {
+  background-color: #38a169; /* bg-green-600 */
+}
+.success:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(72, 187, 120, 0.75); /* ring-2 ring-green-300 ring-opacity-75 */
+}
+
+/* Reset Button Styles */
+.reset {
+  color: #ffffff; /* text-white */
+  background-color: #6b46c1; /* bg-purple-800 */
+}
+.reset:hover {
+  background-color: #9f7aea; /* bg-purple-600 */
+}
+.reset:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(159, 122, 234, 0.75); /* ring-2 ring-purple-300 ring-opacity-75 */
+}
+
+/* Reveal Button Styles */
+.reveal {
+  color: #ffffff; /* text-white */
+  background-color: #c53030; /* bg-red-800 */
+}
+.reveal:hover {
+  background-color: #e53e3e; /* bg-red-600 */
+}
+.reveal:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(229, 62, 62, 0.75); /* ring-2 ring-red-300 ring-opacity-75 */
+}
